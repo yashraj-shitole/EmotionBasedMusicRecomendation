@@ -1,0 +1,9 @@
+.outer-shadow {
+    --outer-shadow: 3px 3px 3px #cfcfcf, -3px -3px 3px #f8f8f8;
+    box-shadow: var(--outer-shadow);
+}
+
+.inner-shadow {
+    --inner-shadow: inset 3px 3px 3px #cfcfcf, inset -3px -3px 3px #dedede;
+    box-shadow: var(--inner-shadow);
+}
